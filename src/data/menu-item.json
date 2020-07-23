@@ -1,0 +1,72 @@
+{
+    "menu_top" : [
+        {
+            "key": "beranda",
+            "title": "beranda",
+            "link": "/"
+        },
+        {
+            "key": "perusahaan",
+            "title": "perusahaan",
+            "link": "/"
+        },
+        {
+            "key": "unduh",
+            "title": "unduh",
+            "link": "/"
+        },
+        {
+            "key": "store",
+            "title": "store",
+            "link": "/"
+        },
+        {
+            "key": "karir",
+            "title": "karir",
+            "link": "/"
+        },
+        {
+            "key": "tentangkami",
+            "title": "tentang kami",
+            "link": "/"
+        },
+        {
+            "key":"hubungikami",
+            "title": "hubungi kami",
+            "link": "/"
+        }
+    ],
+
+    "main_menu" : [
+        {
+            "key":"sehataz",
+            "title": "sehat a-z",
+            "link": "article-category"
+        },
+        {
+            "key":"pengasuhan",
+            "title": "pengasuhan",
+            "link": "article-category"
+        },
+        {
+            "key":"diet",
+            "title": "diet",
+            "link": "article-category"
+        },
+        {
+            "key":"gayahidup",
+            "title": "gayahidup",
+            "link": "article-category"
+        },
+        {
+            "key":"terkini",
+            "title": "terkini",
+            "link": "article-category"
+        },
+        {
+            "key":"kasus",
+            "title": "kasus",
+            "link": "article-category"
+        }
+    ]
+}

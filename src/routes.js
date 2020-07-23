@@ -1,6 +1,6 @@
 import HomePage from './pages/Home/index.vue';
-import PageA from './pages/PageA/index.vue';
-import PageB from './pages/PageB/index.vue';
+import ArticleDetail from './pages/ArticleDetail/index.vue';
+import ArticleCategory from './pages/ArticleCategory/index.vue';
 
 export default [
   {
@@ -9,13 +9,13 @@ export default [
     component: HomePage
   },
   {
-    path: '/page-a',
-    name: 'PageA',
-    component: PageA
+    path: '/article-detail',
+    name: 'Article Detail',
+    component: ArticleDetail
   },
   {
-    path: '/page-b',
-    name: 'PageB',
-    component: PageB
+    path: '/article-category',
+    name: 'Category',
+    component: ArticleCategory
   }
 ];
