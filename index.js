@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import App from './src/App.vue';
 import routes from './src/routes';
+import './src/styles/main.scss';
 
 Vue.use(VueRouter);
 
