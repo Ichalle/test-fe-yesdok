@@ -72,6 +72,10 @@
             box-decoration-break: clone;
             line-height: 3rem;
             padding: 0.75rem;
+            
+            &.small-hero{
+                font-size: 1.5rem;
+            }
         }
     }
 }
@@ -84,5 +88,113 @@
         width: 100%;
         object-fit: cover;
         border-radius: $border-radius;
+    }
+}
+
+.article-list-container{
+    h2, h3{
+        font-size: 1.75rem;
+        color: $color-primary;
+        margin-bottom: 1rem;
+    }
+    h3{
+        text-transform: uppercase;
+    }
+    .article-thumbnail-container{
+        max-height: 200px !important;
+        img{
+            max-height: 200px !important;
+        }
+    }
+    .article-list-footer{
+        display: flex;
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        margin-bottom: 3rem;
+        
+        .article-list-footer-category{
+            background: $color-gold;
+            width: 120px;
+            text-align: center;
+            border-radius: 30px;
+            color: #fff;
+        }
+
+        .article-list-footer-date{
+            width: 120px;
+            text-align: center;
+            border-radius: 30px;
+            border: 1px solid $color-primary;
+            color: $color-primary;
+            margin-left: 10px;
+        }
+    }
+}
+
+.main-article-detail-container{
+    flex-direction: column;
+
+    .main-article-img{
+        width: 100%;
+        max-width: 1200px;
+        img{
+            width: 100%;
+        }
+    }
+    .main-article-detail{
+        width: 100%;
+        max-width: 980px;
+
+        .tag-item{
+            background: #a9a9a9;
+            padding: 6px 8px;
+            margin-right: 5px;
+            color: #fff;
+            border-radius: 6px;
+        }
+
+        .category{
+            background: $color-gold;
+            padding: 5px 20px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        h2{
+            font-size: 2rem;
+            text-transform: uppercase;
+            color: $color-primary;
+            margin: 1rem 0;
+        }
+
+        h3{
+            color: gray;
+            font-weight: 200;
+            font-size: 14px;
+            margin-top: 5px;
+
+            strong{
+                font-weight: 400;
+            }
+        }
+
+        p{
+            color: $color-primary;
+            font-size: 18px;
+            line-height: 1.6;
+            font-weight: 200;
+            margin: 12px 0;
+        }
+    }
+    .main-article-tag{
+        margin-top: 60px;
+        
+        h3{
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
     }
 }

@@ -4,6 +4,7 @@ $color-primary: #024668;
 $color-secondary: #009CD7;
 $color-third: #60B9BD;
 $color-orange: rgb(246,153,19);
+$color-gold: #c49f47;
 $color-danger: #ff0000;
 $color-border: #cacaca;
 
@@ -50,6 +51,12 @@ html{
 }
 .mt-1{
 	margin-top: 1rem
+}
+.nm{
+	margin: 0 !important;
+}
+.np{
+	padding: 0 !important;
 }
 
 // reset css
