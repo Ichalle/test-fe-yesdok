@@ -52,7 +52,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Vue, Vue-router simple boilerplate',
+      title: 'YesDok',
       filename: 'index.html'
     }),
     new VueLoaderPlugin()

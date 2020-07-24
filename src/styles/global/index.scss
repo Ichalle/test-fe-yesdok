@@ -2,28 +2,35 @@
 $color-font: #444;
 $color-primary: #024668;
 $color-secondary: #009CD7;
+$color-third: #60B9BD;
+$color-orange: rgb(246,153,19);
+$color-gold: #c49f47;
 $color-danger: #ff0000;
 $color-border: #cacaca;
 
 $height-top-menu: 9rem;
 
+$border-radius: 10px;
+$border-radius-point: 30px;
+
 $retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 
 html{
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
-
 .wrapper{
     min-height: 100vh;
 }
 .main-container{
     margin-top: $height-top-menu;
 }
-
+.banner{
+	background: $color-third;
+}
 .color-text-title{
     color: $color-primary;
 }
@@ -33,19 +40,26 @@ html{
 .dflex{
     display: flex;
 }
+.dblock{
+    display: block;
+}
 .justifyCenter{
     justify-content: center;
 }
 .alignCenter{
     align-items: center;
 }
+.mt-1{
+	margin-top: 1rem
+}
+.nm{
+	margin: 0 !important;
+}
+.np{
+	padding: 0 !important;
+}
 
 // reset css
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -66,7 +80,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;

@@ -10,12 +10,12 @@ export default [
   },
   {
     path: '/article-detail',
-    name: 'Article Detail',
+    name: 'article-detail',
     component: ArticleDetail
   },
   {
     path: '/article-category',
-    name: 'Category',
+    name: 'article-category',
     component: ArticleCategory
   }
 ];

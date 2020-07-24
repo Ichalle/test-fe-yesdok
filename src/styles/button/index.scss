@@ -1,0 +1,35 @@
+.big-button{
+    background-color: $color-primary;;
+    padding: 8px 8px 8px 32px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 3px solid $color-orange;
+}
+
+
+.pulse {
+    margin-left: 10px;
+    padding:15px;
+    border-radius: 50%;
+    position: relative;
+    background: $color-orange;
+    -webkit-box-shadow: 0 0 0 0 $color-orange;
+            box-shadow: 0 0 0 0 $color-orange;
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(.66, 0, 0, 1);
+
+    &:hover{
+        -webkit-animation: none;animation: none;
+    }
+  }
+  
+  @-webkit-keyframes pulse {to {-webkit-box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}
+  @keyframes pulse {to {-webkit-box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);}}

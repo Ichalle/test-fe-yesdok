@@ -1,13 +1,15 @@
 <template>
     <div>
-        <h1>Page A</h1>
+        <main-article :data="$route.params.data" />
     </div>
 </template>
 
 <script>
-  export default {}
+import MainArticle from './MainArticle.vue';
+
+export default {
+  components: {
+    MainArticle
+  }
+}
 </script>
-
-<style scoped>
-
-</style>
