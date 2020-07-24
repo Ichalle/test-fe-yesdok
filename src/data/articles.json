@@ -1,0 +1,20 @@
+[
+    {
+        "title" : "Ini Cara Cegah Gatal di Area Vagina",
+        "category": "sehat",
+        "description_short": "short description",
+        "description_long": "longgg..... description",
+        "is_hero": true,
+        "is_small_hero": false,
+        "image": "https://www.yesdok.com/visual/slideshow/vagina%20gatal-article-1595433548.jpg"
+    },
+    {
+        "title" : "Suka Mangga Muda? Ketahui Manfaatnya",
+        "category": "diet",
+        "description_short": "Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.",
+        "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p><p><span><strong>Membantu penurunan berat badan</strong></span></p>",
+        "is_hero": false,
+        "is_small_hero": true,
+        "image": "https://www.yesdok.com/visual/slideshow/mangga%20muda-article-1595433449.jpg"
+    }
+]
