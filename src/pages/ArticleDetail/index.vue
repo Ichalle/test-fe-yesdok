@@ -1,7 +1,6 @@
 <template>
     <div>
         <main-article :data="$route.params.data" />
-        <h1>Page A </h1>
     </div>
 </template>
 
@@ -14,7 +13,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

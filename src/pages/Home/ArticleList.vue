@@ -7,8 +7,17 @@
                     <article-thumbnail :data="item" />
                 </div>
                 <div class="col-8">
-                    <h3>{{ item.title }}</h3>
-                    <p>{{ item.description_short }}</p>
+                    <h3>
+                        <router-link
+                            :to="{
+                                name: 'article-detail',
+                                params: { data: item }
+                            }">
+                        {{ item.title }}
+                        </router-link>
+                    </h3>
+
+                    <p>{{ hide_description ? null : item.description_short }}</p>
                     
                     <div class="article-list-footer dflex alignCenter JustifyCenter"> 
                         <div class="article-list-footer-category">
@@ -35,6 +44,9 @@
             },
             data: {
                 type: Array
+            },
+            hide_description:{
+                type: Boolean
             }
         },
         components: {

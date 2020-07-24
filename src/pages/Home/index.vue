@@ -22,8 +22,12 @@
             :article_title="'Article Terbaru'" 
             :data="articles_data" />
         </div>
-        <div class="col-2">
-
+        <div class="col-4">
+          <article-list 
+            :article_title="'Article Terbaru'" 
+            :data="articles_data" 
+            :hide_description="true"
+            />
         </div>
     </div>
 
