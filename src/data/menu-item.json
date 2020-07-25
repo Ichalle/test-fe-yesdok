@@ -40,7 +40,7 @@
     "main_menu" : [
         {
             "key":"sehataz",
-            "title": "sehat a-z",
+            "title": "sehat",
             "link": "article-category"
         },
         {

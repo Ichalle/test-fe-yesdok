@@ -2,7 +2,7 @@
     <div class="article-list-container">
         <h2>{{ article_title }}</h2> 
         <div class="row" v-for="(item, index) in data" :key="index">
-            <template v-if="item.is_small_hero === false && item.is_hero === false">
+            <template v-if="showArticle(item)">
                 <div class="col-4 nm" >
                     <article-thumbnail :data="item" />
                 </div>
@@ -47,6 +47,9 @@
             },
             hide_description:{
                 type: Boolean
+            },
+            category: {
+                type: String
             }
         },
         components: {
@@ -62,6 +65,16 @@
                 let dateSet = `${date.getDate()}` + ' ' + `${monthNames[date.getMonth()]}` + ' ' + `${date.getFullYear()}`
                 
                 return dateSet
+            },
+
+            showArticle(item){
+                if(this.category && this.category === item.category){
+                    if(item.is_small_hero === false && item.is_hero === false){
+                        return true
+                    }
+                    return false
+                } 
+                return false
             }
         }
     }
