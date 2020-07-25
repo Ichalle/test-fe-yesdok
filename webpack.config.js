@@ -52,9 +52,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'YesDok',
-      filename: 'index.html'
-    }),
+			template: path.join(__dirname, 'index.html')
+		}),
     new VueLoaderPlugin()
   ]
 };

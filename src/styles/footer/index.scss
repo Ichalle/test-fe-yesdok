@@ -1,0 +1,31 @@
+.main-footer-container{
+    background: $color-gray;
+
+    h3{
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .footer-item{
+        display: flex;
+        margin: 0.5rem 0 1rem;
+
+        .footer-item-left{
+            width: 25px;
+            img{
+                width: 100%;
+            }
+        }
+
+        .footer-item-right{
+            padding-left: 8px;
+            p{ 
+                color: #fff;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+    }
+}

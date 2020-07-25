@@ -52,9 +52,22 @@
 
     data(){
       return{
-        articles_data : Articles,
+        articles_data : [],
+      }
+    },
 
+    created(){
+      this.getData()
+    },
+
+    methods: {
+      getData() {
+        if(this.$store.state.articles.length === 0) {
+            this.$store.commit('addData', Articles)
+        }
+        return this.articles_data = this.$store.state.articles[0].data 
       }
     }
+
   }
 </script>
