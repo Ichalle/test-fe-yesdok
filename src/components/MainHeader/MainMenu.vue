@@ -4,7 +4,10 @@
             <router-link
                 v-for="item in main_menu"
                 :key="item.key"
-                :to="item.link">
+                :to="{
+                    name: item.link,
+                    query: { cat: item.title }
+                }">
                     <div class="menu-item">
                         {{item.title}}
                     </div>
