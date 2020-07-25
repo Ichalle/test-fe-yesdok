@@ -1,4 +1,11 @@
 {
     "main_logo": "https://www.yesdok.com/img/headeryesdok.png",
-    "img_point" : "https://www.yesdok.com/img/yespoint_color.png"
+    "img_point" : "https://www.yesdok.com/img/yespoint_color.png",
+    "android_apps": "https://www.yesdok.com/img/footer_play_store.png",
+    "ios_apps": "https://www.yesdok.com/img/footer_app_store.png",
+    "flag_indonesia": "https://www.yesdok.com/img/indonesia_flag.png",
+    "flag_sg": "https://www.yesdok.com/img/singapore_flag.png",
+    "follow_fb": "https://www.yesdok.com/img/facebook.png",
+    "follow_twitter": "https://www.yesdok.com/img/twitter.png",
+    "follow_ig": "https://www.yesdok.com/img/instagram.png"
 }

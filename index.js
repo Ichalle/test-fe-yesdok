@@ -4,12 +4,20 @@ import VueRouter from 'vue-router'
 import App from './src/App.vue';
 import routes from './src/routes';
 import './src/styles/main.scss';
+import store from './src/store';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope, faClock } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(VueRouter);
+
+library.add(faEnvelope, faClock)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 const router = new VueRouter({ routes });
 
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('body');

@@ -1,6 +1,8 @@
 <template>
     <div>
-        <main-article :data="$route.params.data" />
+        <main-article 
+          :data="this.$route.params.data" 
+          v-if="this.$route.params.data" />
     </div>
 </template>
 

@@ -29,13 +29,14 @@
     a{
         display: flex;
         height: 100%;
-        color: #fff;
+        color:#fff;
         text-decoration: none;
         align-items: center;
         
 
         .menu-item {
             padding: 12px;
+            color: #fff;
             &:hover {
                 color: $color-secondary;
             }

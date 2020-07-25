@@ -1,0 +1,47 @@
+.main-footer-container{
+    background: $color-gray;
+    padding: 2rem 0 0;
+
+    h3{
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .footer-item{
+        display: flex;
+        margin: 0.5rem 0 1rem;
+
+        .footer-item-left{
+            width: 25px;
+            img{
+                width: 100%;
+            }
+
+            svg{
+                path{
+                    color: #fff;
+                }
+            }
+        }
+
+        .footer-item-right{
+            padding-left: 8px;
+            p{ 
+                color: #fff;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .footer-sosmed{
+            margin-right: 8px;
+
+            img{
+                width: 100%;
+                max-width: 50px;
+            }
+        }
+
+    }
+}

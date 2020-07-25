@@ -7,6 +7,7 @@ $color-orange: rgb(246,153,19);
 $color-gold: #c49f47;
 $color-danger: #ff0000;
 $color-border: #cacaca;
+$color-gray: #4D4D4D;
 
 $height-top-menu: 9rem;
 
@@ -39,6 +40,12 @@ html{
 
 .dflex{
     display: flex;
+}
+.flexColumn{
+	flex-direction: column;
+}
+.flexRow{
+	flex-direction: row;
 }
 .dblock{
     display: block;
