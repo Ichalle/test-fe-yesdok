@@ -1,7 +1,7 @@
 <template>
     <div class="banner banner-consult">
       <div class="row">
-        <div class="col-12 dflex justifyCenter">
+        <div class="col-12 dflex justifyCenter set-direction">
           <h2 class="color-text-title">{{ banner_title }}</h2>
           <router-link
             class="big-button"
@@ -31,5 +31,10 @@
 <style lang="scss" scoped>
   h2{
     font-size: 2rem
+  }
+  .set-direction{
+    @media screen and (max-width: 768px){
+      flex-direction: column;
+    }
   }
 </style>

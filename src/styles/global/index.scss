@@ -41,6 +41,12 @@ html{
 .dflex{
     display: flex;
 }
+.flexColumn{
+	flex-direction: column;
+}
+.flexRow{
+	flex-direction: row;
+}
 .dblock{
     display: block;
 }

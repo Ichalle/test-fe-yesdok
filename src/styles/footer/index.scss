@@ -1,5 +1,6 @@
 .main-footer-container{
     background: $color-gray;
+    padding: 2rem 0 0;
 
     h3{
         color: #fff;
@@ -15,6 +16,12 @@
             img{
                 width: 100%;
             }
+
+            svg{
+                path{
+                    color: #fff;
+                }
+            }
         }
 
         .footer-item-right{
@@ -24,6 +31,15 @@
                 color: #fff;
                 font-size: 14px;
                 font-weight: 400;
+            }
+        }
+
+        .footer-sosmed{
+            margin-right: 8px;
+
+            img{
+                width: 100%;
+                max-width: 50px;
             }
         }
 

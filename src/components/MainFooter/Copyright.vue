@@ -23,6 +23,7 @@ export default {
         display: flex;
         padding: 0 2%;
         align-items: center;
+        margin-top: 2rem;
 
         span {
             color: #fff;
