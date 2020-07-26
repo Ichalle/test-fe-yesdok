@@ -19,12 +19,17 @@
     <div class="row mt-1">
         <div class="col-8">
           <article-list 
-            :article_title="'Article Terbaru'" 
+            :article_title="'Artikel Terbaru'" 
             :data="articles_data" />
         </div>
         <div class="col-4">
           <article-list 
-            :article_title="'Article Terbaru'" 
+            :article_title="'Artikel Covid-19'" 
+            :data="articles_data" 
+            :hide_description="true"
+            />
+          <article-list 
+            :article_title="'Artikel Populer'" 
             :data="articles_data" 
             :hide_description="true"
             />

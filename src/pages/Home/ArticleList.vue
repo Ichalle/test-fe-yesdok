@@ -1,13 +1,13 @@
 <template>
     <div class="article-list-container">
         <h2>{{ article_title }}</h2> 
-        <div class="row" v-for="(item, index) in data" :key="index">
-            <template v-if="showArticle(item)">
-                <div class="col-4 nm" >
+        <div v-for="(item, index) in data" :key="index">
+            <div class="row" v-if="showArticle(item)">
+                <div class="col-4 ml-0" >
                     <article-thumbnail :data="item" />
                 </div>
                 <div class="col-8">
-                    <h3>
+                    <h3 :class="hide_description ? 'small' : null">
                         <router-link
                             :to="{
                                 name: 'article-detail',
@@ -17,18 +17,25 @@
                         </router-link>
                     </h3>
 
-                    <p>{{ hide_description ? null : item.description_short }}</p>
+                    <p class="mb-3">{{ hide_description ? null : item.description_short }}</p>
                     
                     <div class="article-list-footer dflex alignCenter JustifyCenter"> 
-                        <div class="article-list-footer-category">
-                            {{ item.category }}
-                        </div>
+                        <router-link
+                            class="article-list-footer-category"
+                            :to="{
+                                name: 'article-category',
+                                query: { cat: item.category }
+                            }">
+                                {{ item.category }}
+                        </router-link>
+
                         <div class="article-list-footer-date">
+                            <font-awesome-icon icon="clock" />
                             {{ setDate(item.date) }}
                         </div>
                     </div>
                 </div>
-            </template>
+            </div>
         </div>
     </div>
 </template>
@@ -68,12 +75,15 @@
             },
 
             showArticle(item){
+                if(!this.category) return this.showDescription(item)
                 if(this.category && this.category === item.category){
-                    if(item.is_small_hero === false && item.is_hero === false){
-                        return true
-                    }
-                    return false
+                    return this.showDescription(item)
                 } 
+                return false
+            },
+
+            showDescription(item){
+                if(item.is_small_hero === false && item.is_hero === false) return true
                 return false
             }
         }

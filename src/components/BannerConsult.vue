@@ -1,27 +1,31 @@
 <template>
     <div class="banner banner-consult">
       <div class="row">
-        <div class="col-12 dflex justifyCenter set-direction">
+        <div class="col-12 dflex justifyCenter alignCenter set-direction">
           <h2 class="color-text-title">{{ banner_title }}</h2>
-          <router-link
-            class="big-button"
-            to="#">
-            {{ button_consult_text }}
-            <div class="pulse"> </div>
-          </router-link>
+          <button-consult :text="button_consult_text" />
         </div>
       </div>
     </div>
 </template>
 
 <script>
+  import ButtonConsult from '../components/Button/ButtonConsult.vue';
+  import {
+    BANNER_TITLE,
+    BANNER_CONSULT_TEXT } from '../utils/Messages';
+
+
   export default {
     name: 'banner-consult',
+    components: {
+      ButtonConsult
+    },
 
     data(){
       return{
-        banner_title: 'BINGUNG? TANYA DOKTER!',
-        button_consult_text: 'MULAI KONSULTASI'
+        banner_title: BANNER_TITLE,
+        button_consult_text: BANNER_CONSULT_TEXT
 
       }
     }
@@ -30,7 +34,8 @@
 
 <style lang="scss" scoped>
   h2{
-    font-size: 2rem
+    font-size: 2.2rem;
+    font-weight: bold;
   }
   .set-direction{
     @media screen and (max-width: 768px){
