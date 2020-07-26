@@ -30,6 +30,7 @@
         border-radius: 30px;
         text-transform: capitalize;
         font-weight: 800;
+        font-size: 14px;
         
 
         img{

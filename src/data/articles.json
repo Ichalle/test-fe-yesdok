@@ -2,6 +2,7 @@
     {
         "title" : "Ini Cara Cegah Gatal di Area Vagina",
         "category": "sehat",
+        "category-text": "sehat a-z",
         "description_short": "short description",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": true,
@@ -9,12 +10,13 @@
         "author": "Claudia Ramadhani",
         "reviewer": "Tim YesDok",
         "tag": [{"name" : "tanya dokter"}, {"name" : "dokter"}, {"name" : "DokterBeneran"}],
-        "date": "1595564534",
+        "date": "1595727743",
         "image": "https://www.yesdok.com/visual/slideshow/vagina%20gatal-article-1595433548.jpg"
     },
     {
         "title" : "Suka Mangga Muda? Ketahui Manfaatnya",
         "category": "diet",
+        "category-text": "diet",
         "description_short": "Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -28,6 +30,7 @@
     {
         "title" : "Tenggorokan Kering, Apa Sebabnya?",
         "category": "diet",
+        "category-text": "diet",
         "description_short": "Tenggorokan kita juga rentan mengalami masalah, salah satunya adalah tenggorokan kering. Saat mengalami kondisi ini, Anda pasti akan merasakan ketidaknyamanan, sebab tenggorokan yang kering juga bisa mengakibatkan iritasi dan rasa sakit.",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -41,6 +44,7 @@
     {
         "title" : "Cara Atasi Nyeri Sendi Seiring Bertambahnya Usia",
         "category": "diet",
+        "category-text": "diet",
         "description_short": "Pepatah lama mengatakan mencegah lebih baik dari pada mengobati. Memiliki tulang yang kuat dan sehat diperlukan di setiap tahap kehidupan, terutama ketika Anda menua karena kesehatan tulang kita menurun seiring waktu. ",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -48,12 +52,13 @@
         "author": "Claudia Ramadhani",
         "reviewer": "Tim YesDok",
         "tag": [{"name" : "tanya dokter"}],
-        "date": "1595564534",
+        "date": "1595727743",
         "image": "https://www.yesdok.com/visual/slideshow/4c8997e2-290a-4eb1-b497-d9052273baad-article-1595415585.jpeg"
     },
     {
         "title" : "Menurunkan Lonjakan Gula Darah Dengan Makanan Ini",
         "category": "sehat",
+        "category-text": "sehat a-z",
         "description_short": "Ketika seseorang menderita diabetes, tubuh mereka tidak menghasilkan insulin yang cukup, atau tidak dapat menggunakan insulin dengan benar, sehingga glukosa menumpuk di dalam darah.",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -67,6 +72,7 @@
     {
         "title" : "Para Ibu Wajib Tahu, Begini Aturan Persalinan di Masa Pandemi COVID-19",
         "category": "terkini",
+        "category-text": "diet",
         "description_short": "Berbagai kegiatan memerlukan adaptasi baru di tengah pandemi corona seperti sekarang ini. Tak terkecuali dengan persalinan yang menyesuaikan dengan protokol kesehatan yang ada.",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -80,6 +86,7 @@
     {
         "title" : "Punya Masalah dengan Jerawat? Coba Perhatikan Makanan Anda",
         "category": "sehat",
+        "category-text": "sehat a-z",
         "description_short": "Jerawat adalah kondisi kulit yang paling umum terjadi . Tetapi terlepas dari seberapa umum itu, jerawat ringan atau parah tetap dapat mempengaruhi suasana hati Anda dan merusak kepercayaan diri Anda.",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -92,7 +99,8 @@
     },
     {
         "title" : "Jangan Salah Kaprah! Thermal Gun Tidak Merusak Otak",
-        "category": "diet",
+        "category": "pengasuhan",
+        "category-text": "diet",
         "description_short": "Baru-baru ini masyarakat dihebohkan dengan informasi yang menyatakan bahwa thermal gun dapat merusak otak. Sayangnya, tidak sedikit masyarakat yang percaya dengan informasi tersebut.",
         "description_long": "<p><span><span>Siapa yang suka makan mangga? Mangga memang salah satu buah yang nikmat untuk disantap. Mangga memiliki rasa yang manis ketika sudah matan, dan asam ketika belum matang. Meski belum matang, banyak orang tetap suka menyantap mangga muda terlebih jika disajikan dalam hidangan rujak.</span></span></p><p><span><span>Buah mangga muda juga memiliki manfaat yang sama dengan buah mangga yang sudah matang. Bahkan disebut-sebut, buah mangga muda bisa membantu Anda yang ingin menurunkan berat badan.</span></span></p><p><span><span>Ingin tahu lebih lanjut mengenai manfaat mengonsumsi buah mangga muda? Berikut kami berikan ulasannya untuk Anda:</span></span></p>",
         "is_hero": false,
@@ -100,7 +108,7 @@
         "author": "Claudia Ramadhani",
         "reviewer": "Tim YesDok",
         "tag": [{"name" : "tanya dokter"}, {"name" : "dokter"}, {"name" : "DokterBeneran"}],
-        "date": "1595564534",
+        "date": "1595727743",
         "image": "https://www.yesdok.com/visual/slideshow/ezgif.com-webp-to-jpg%20(23)-article-1595319729.jpg"
     }
 ]

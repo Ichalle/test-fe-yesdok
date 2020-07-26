@@ -14,7 +14,13 @@ Vue.use(VueRouter);
 library.add(faEnvelope, faClock)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-const router = new VueRouter({ routes });
+const router = new VueRouter({ 
+  routes,
+  scrollBehavior () {
+    return { x: 0, y: 0 };
+  }
+
+});
 
 new Vue({
   router,

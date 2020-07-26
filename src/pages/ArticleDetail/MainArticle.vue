@@ -10,10 +10,12 @@
 
             <h3>Ditulis oleh <strong>{{ data.author }} </strong></h3>
             <h3>Direview oleh <strong>{{ data.reviewer }} </strong></h3>
-            <h3>{{ setDate(data.date) }}</h3>
+            <h3><font-awesome-icon icon="clock" /> {{ setDate(data.date) }}</h3>
             <div class="mt-1" v-html="data.description_long"></div>
 
             <tag-article :tag="data.tag" />
+            <share-socialmedia />
+            <related-article />
         </div>
 
     </div>
@@ -21,23 +23,21 @@
 
 <script>
 import TagArticle from './TagArticle.vue';
+import ShareSocialmedia from './ShareSocialmedia.vue';
+import RelatedArticle from './RelatedArticle.vue';
 import Articles from '../../data/articles.json';
 
 export default {
     components: {
-        TagArticle
+        TagArticle,
+        ShareSocialmedia,
+        RelatedArticle
     },
     props: {
         data: {
             type: Object
         },
     },
-
-    // data(){
-    //     return {
-    //         data : Articles[0]
-    //     }
-    // },
 
     methods: {
         setDate(date){

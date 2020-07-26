@@ -6,13 +6,14 @@
                 :key="item.key"
                 :to="{
                     name: item.link,
-                    query: { cat: item.title }
+                    query: { cat: item.key }
                 }">
                     <div class="menu-item">
                         {{item.title}}
                     </div>
             </router-link>
             <info-point />
+            <div></div>
             <status-user />
         </div>
     </div>

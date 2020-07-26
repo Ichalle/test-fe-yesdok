@@ -39,8 +39,8 @@
 
     "main_menu" : [
         {
-            "key":"sehataz",
-            "title": "sehat",
+            "key":"sehat",
+            "title": "sehat a-z",
             "link": "article-category"
         },
         {
