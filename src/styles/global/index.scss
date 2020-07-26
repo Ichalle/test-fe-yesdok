@@ -10,9 +10,16 @@ $color-border: #cacaca;
 $color-gray: #4D4D4D;
 
 $height-top-menu: 9rem;
+$height-mobile-menu: 6rem;
 
 $border-radius: 10px;
 $border-radius-point: 30px;
+
+$width: 96%;
+$gutter: 4%;
+$breakpoint-small: 33.75em; // 540px
+$breakpoint-med: 45em; // 720px
+$breakpoint-large: 60em; // 960px
 
 $retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
@@ -27,7 +34,10 @@ html{
     min-height: 100vh;
 }
 .main-container{
-    margin-top: $height-top-menu;
+	margin-top: $height-mobile-menu;
+	@media only screen and (min-width: $breakpoint-large) {
+        margin-top: $height-top-menu;
+    }
 }
 .banner{
 	background: $color-third;
