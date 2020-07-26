@@ -2,7 +2,7 @@
     <div class="dflex">
         <div class="top-menu main-menu">
             <router-link
-                to="#">
+                to="/">
                 {{ not_authenticate }}
             </router-link>
         </div>

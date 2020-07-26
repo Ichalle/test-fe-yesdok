@@ -12,8 +12,13 @@
                         {{item.title}}
                     </div>
             </router-link>
+
             <info-point />
-            <div></div>
+
+            <div class="point-count-container">
+                <count-point />
+            </div>
+            
             <status-user />
         </div>
     </div>
@@ -23,12 +28,14 @@
     import menuItems from '../../data/menu-item.json';
     import InfoPoint from './InfoPoint.vue';
     import StatusUser from './StatusUser.vue';
+    import CountPoint from './CountPoint.vue';
 
     export default {
         name: "header-top",
         components: {
             InfoPoint,
-            StatusUser
+            StatusUser,
+            CountPoint
         },
 
         data() {
