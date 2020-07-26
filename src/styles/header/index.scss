@@ -100,3 +100,21 @@
         color: $color-secondary;
     }
 }
+
+.point-count-container{
+    position: relative;
+    width: 130px;
+    .point-count-wrapper{
+        position: absolute;
+    }
+    .bg-count{
+            background: rgba(250, 250, 250, 0.8);
+            border-radius: 50%;
+            width: 88px;
+            height: 88px;
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            z-index: -1;
+    }
+}

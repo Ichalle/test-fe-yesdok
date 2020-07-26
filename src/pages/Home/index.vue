@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-container" >
     <banner-consult />
 
     <div class="row mt-1">
@@ -58,6 +58,7 @@
     data(){
       return{
         articles_data : [],
+        progress: 0
       }
     },
 
