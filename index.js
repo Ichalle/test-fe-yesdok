@@ -6,12 +6,12 @@ import routes from './src/routes';
 import './src/styles/main.scss';
 import store from './src/store';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope, faClock } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faClock, faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(VueRouter);
 
-library.add(faEnvelope, faClock)
+library.add(faEnvelope, faClock, faSearch, faBars)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 const router = new VueRouter({ 
